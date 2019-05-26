@@ -1,0 +1,219 @@
+<head>
+</head>
+
+<body>
+
+
+	
+	
+</li><li> <p> Compile and run with the commands:
+<pre>
+ gcc -o instr instructor_client.c list_hw.c
+ ./instr
+
+ 
+ The instr_client as given, does not take user input.
+But if you change the hardcoded data:
+	A = arrayToList(arr, 7);
+	//A = buildListOfInts() ;  // use this line and redirect input to run test cases from data files. See posted example data file.
+to user input data:
+	//A = arrayToList(arr, 7);
+	A = buildListOfInts() ;  // use this line and redirect input to run test cases from data files. See posted example data file.
+then you can run the program with :
+	./instr < data_1.txt    
+</pre>
+</ol>
+Below are shown two executions: 
+</br> - The first one is with the given files as they are (as soon as you run them you should get the same output).  
+</br> - The second is with the implemented solution. You should get the same output after you implement your solution.
+
+<font color = purple><b>
+</br>--------------------------------------</br>
+BEFORE YOU IMPLEMENT YOUR FUNCTIONS, when you run  ./instr  you should get:
+</b></font>
+
+<pre>
+ Running function run_student_test.
+ 
+
+--------------------------------------
+LIST A:
+ List length = 7
+List items:    15           100          7            5            100          7            30           
+List pointers: 0x600048f10 0x600048f30 0x600048f50 0x600048f70 0x600048f90 0x600048fb0 0x600048fd0 
+
+
+--------------------------------------
+Testing sublist (for lists of ints).
+
+original list A:
+ List length = 7
+List items:    15           100          7            5            100          7            30           
+List pointers: 0x600048f10 0x600048f30 0x600048f50 0x600048f70 0x600048f90 0x600048fb0 0x600048fd0 
+List with positions pos_list:
+ List length = 4
+ List items:
+    3        0        6        4    
+SUBLIST:
+The list pointer is NULL)
+
+The list pointer is NULL)
+original list A:
+ List length = 7
+List items:    15           100          7            5            100          7            30           
+List pointers: 0x600048f10 0x600048f30 0x600048f50 0x600048f70 0x600048f90 0x600048fb0 0x600048fd0 
+
+
+--------------------------------------
+Test deleteOccurrences (for lists of ints).
+
+LIST A:
+ List length = 7
+List items:    15           100          7            5            100          7            30           
+List pointers: 0x600048f10 0x600048f30 0x600048f50 0x600048f70 0x600048f90 0x600048fb0 0x600048fd0 
+After calling deleteOccurrences(A,7) (currently not implemented).
+After you implement this function, list A (printed below) should not have any values of 7.
+
+ List length = 7
+List items:    15           100          7            5            100          7            30           
+List pointers: 0x600048f10 0x600048f30 0x600048f50 0x600048f70 0x600048f90 0x600048fb0 0x600048fd0 
+
+----------  end test function -------------------
+
+
+--------------------------------------
+Test moveAllMaxAtEnd (for lists of ints).
+
+LIST A:
+ List length = 7
+List items:    15           100          7            5            100          7            30           
+List pointers: 0x600048f10 0x600048f30 0x600048f50 0x600048f70 0x600048f90 0x600048fb0 0x600048fd0 
+After calling moveAllMaxAtEnd (currently not implemented).
+After you implement this function, list A (printed below) should have the largest value(s) at the end.
+
+ List length = 7
+List items:    15           100          7            5            100          7            30           
+List pointers: 0x600048f10 0x600048f30 0x600048f50 0x600048f70 0x600048f90 0x600048fb0 0x600048fd0 
+
+----------  end test function -------------------
+
+
+--------------------------------------
+Test swapFirstThird (for lists of ints).
+
+LIST A:
+ List length = 7
+List items:    15           100          7            5            100          7            30           
+List pointers: 0x600048f10 0x600048f30 0x600048f50 0x600048f70 0x600048f90 0x600048fb0 0x600048fd0 
+After calling swapFirstThird(A) (currently not implemented).
+After you implement this function, list A (printed below).
+
+ List length = 7
+List items:    15           100          7            5            100          7            30           
+List pointers: 0x600048f10 0x600048f30 0x600048f50 0x600048f70 0x600048f90 0x600048fb0 0x600048fd0 
+
+----------  end test function -------------------
+
+
+</pre>
+
+<font color = purple><b>
+</br>--------------------------------------</br>
+AFTER YOU IMPLEMENT YOUR FUNCTIONS, when you run  ./instr you should get:
+</b></font>
+<pre>
+ Running function run_student_test.
+ 
+
+--------------------------------------
+LIST A:
+ List length = 7
+List items:    15           100          7            5            100          7            30           
+List pointers: 0x600048f10 0x600048f30 0x600048f50 0x600048f70 0x600048f90 0x600048fb0 0x600048fd0 
+
+
+--------------------------------------
+Testing sublist (for lists of ints).
+
+original list A:
+ List length = 7
+List items:    15           100          7            5            100          7            30           
+List pointers: 0x600048f10 0x600048f30 0x600048f50 0x600048f70 0x600048f90 0x600048fb0 0x600048fd0 
+List with positions pos_list:
+ List length = 4
+ List items:
+3    0    6    4    
+SUBLIST:
+ List length = 4
+List items:    5            15           30           100          
+List pointers: 0x6000490b0 0x6000490d0 0x6000490f0 0x600049110 
+original list A:
+ List length = 7
+List items:    15           100          7            5            100          7            30           
+List pointers: 0x600048f10 0x600048f30 0x600048f50 0x600048f70 0x600048f90 0x600048fb0 0x600048fd0 
+
+
+--------------------------------------
+Test deleteOccurrences (for lists of ints).
+
+LIST A:
+ List length = 7
+List items:    15           100          7            5            100          7            30           
+List pointers: 0x600048f10 0x600048f30 0x600048f50 0x600048f70 0x600048f90 0x600048fb0 0x600048fd0 
+After calling deleteOccurrences(A,7) (currently not implemented).
+After you implement this function, list A (printed below) should not have any values of 7.
+
+ List length = 5
+List items:    15           100          5            100          30           
+List pointers: 0x600048f10 0x600048f30 0x600048f70 0x600048f90 0x600048fd0 
+
+----------  end test function -------------------
+
+
+
+--------------------------------------
+Test moveAllMaxAtEnd (for lists of ints).
+
+LIST A:
+ List length = 5
+List items:    15           100          5            100          30           
+List pointers: 0x600048f10 0x600048f30 0x600048f70 0x600048f90 0x600048fd0 
+After calling moveAllMaxAtEnd (currently not implemented).
+After you implement this function, list A (printed below) should have the largest value(s) at the end.
+
+ List length = 5
+List items:    15           5            30           100          100          
+List pointers: 0x600048f10 0x600048f70 0x600048fd0 0x600048f30 0x600048f90 
+
+
+----------  end test function -------------------
+
+
+--------------------------------------
+Test swapFirstThird (for lists of ints).
+
+LIST A:
+ List length = 5
+List items:    15           5            30           100          100          
+List pointers: 0x600048f10 0x600048f70 0x600048fd0 0x600048f30 0x600048f90 
+After calling swapFirstThird(A) (currently not implemented).
+After you implement this function, list A (printed below).
+
+ List length = 5
+List items:    30           5            15           100          100          
+List pointers: 0x600048fd0 0x600048f70 0x600048f10 0x600048f30 0x600048f90 
+
+
+----------  end test function -------------------
+
+
+</pre>
+
+</p>
+
+<b>It is not sufficient for your function to only behave correctly in the above example, it should work with any example, and lists of any size.</b>
+
+<p>
+
+
+</body>

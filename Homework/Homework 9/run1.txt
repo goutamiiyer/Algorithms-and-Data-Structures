@@ -1,0 +1,48 @@
+run command:
+$ ./gr1 < data1.txt
+
+Program output: 
+
+Enter number of vertices, N: Enter name1: Enter name1: Enter name1: Enter name1: Enter name1: Enter name1: Enter name1: Enter name1: Enter name1: Enter name1: Enter name1 name2: 0-1
+Enter name1 name2: Enter name1 name2: Enter name1 name2: Enter name1 name2: Enter name1 name2: Enter name1 name2:
+GRAPH:
+N = 10
+0-Sam
+1-Thomas
+2-Judy
+3-Sue
+4-Anne
+5-Todd
+6-Elsa
+7-Jay
+8-Brad
+9-Joe
+
+0 1 0 0 0 1 0 0 0 0
+1 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 1 0 0
+0 0 0 0 1 0 0 0 0 0
+0 0 0 1 0 1 0 0 0 0
+1 0 0 0 1 0 0 0 0 0
+0 0 0 0 0 0 0 0 1 0
+0 0 1 0 0 0 0 0 0 0
+0 0 0 0 0 0 1 0 0 0
+0 0 0 0 0 0 0 0 0 0
+Number of groups: 4
+Group: 1
+Sam
+Thomas
+Sue
+Anne
+Todd
+
+Group: 2
+Judy
+Jay
+
+Group: 3
+Elsa
+Brad
+
+Group: 4
+Joe

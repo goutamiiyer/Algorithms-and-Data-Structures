@@ -1,0 +1,17 @@
+#include <stdio.h>
+main(){
+	int k,x;
+	for(k = 2401, x = 0; k >= 1; k = k / 7){
+		printf("%d,", k);
+		x = x +1;
+		}
+}
+
+#include <stdio.h>
+main(){
+	int k,x;
+		for(k = 1, x = 0; k <= pow(2,10); k = k * 2){
+        printf("%d,", k);
+        x = x +1;
+		}
+		}

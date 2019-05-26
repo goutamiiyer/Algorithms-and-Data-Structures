@@ -1,0 +1,10 @@
+gcc hello.c -g
+gdb ./a.out
+
+gdb> run
+......
+details abt seg fault
+
+where
+line number
+quit

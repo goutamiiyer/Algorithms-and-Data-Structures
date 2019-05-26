@@ -1,0 +1,46 @@
+a -- palindrome
+ab
+abb
+abbc
+abbcc
+abbccd
+b -- palindrome
+bb -- palindrome
+bbc
+bbcc
+bbccd
+b -- palindrome
+bc
+bcc
+bccd
+c -- palindrome
+cc -- palindrome
+ccd
+c -- palindrome
+cd
+d -- palindrome
+
+{0} {1, 12} {2} {3,34} {4} {5}
+{a} {b, bb} {b} {c,cc} {c} {d}  -- O(n2)
+
+char *stCharPtr [100]; 
+(char*)**
+
+
+{a,b,b,c,c,d}
+{0,1,2,3,4,5}
+
+{a,bb,c,c,d}
+{0,12,3,4,5}
+
+{a,b,b,cc,d}
+{0,1,2,34,5}
+
+{a,bb,cc,d}
+{0,12,34,5}
+
+
+a --> b --> b --> c --> c --> d
+              --> cc --> d
+  --> bb --> c --> c --> d 
+         --> cc --> d

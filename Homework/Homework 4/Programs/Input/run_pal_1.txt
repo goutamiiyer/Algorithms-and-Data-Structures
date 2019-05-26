@@ -1,0 +1,103 @@
+Enter size of array. (Stop with -1.)
+Enter size of array. (Stop with -1.)
+Enter strings. Stop with -1.
+s =
+a, b, a,
+aba,
+2
+
+s =
+a, b, c, a, c, a, a,
+a, b, c, a, c, aa,
+a, b, c, aca, a,
+a, b, cac, a, a,
+a, b, cac, aa,
+5
+
+s =
+a, b, b, a, a, a, a, b, b, a,
+a, b, b, a, a, a, a, bb, a,
+a, b, b, a, a, a, abba,
+a, b, b, a, a, aa, b, b, a,
+a, b, b, a, a, aa, bb, a,
+a, b, b, a, aa, a, b, b, a,
+a, b, b, a, aa, a, bb, a,
+a, b, b, a, aa, abba,
+a, b, b, a, aaa, b, b, a,
+a, b, b, a, aaa, bb, a,
+a, b, b, aa, a, a, b, b, a,
+a, b, b, aa, a, a, bb, a,
+a, b, b, aa, a, abba,
+a, b, b, aa, aa, b, b, a,
+a, b, b, aa, aa, bb, a,
+a, b, b, aaa, a, b, b, a,
+a, b, b, aaa, a, bb, a,
+a, b, b, aaa, abba,
+a, b, b, aaaa, b, b, a,
+a, b, b, aaaa, bb, a,
+a, b, baaaab, b, a,
+a, bb, a, a, a, a, b, b, a,
+a, bb, a, a, a, a, bb, a,
+a, bb, a, a, a, abba,
+a, bb, a, a, aa, b, b, a,
+a, bb, a, a, aa, bb, a,
+a, bb, a, aa, a, b, b, a,
+a, bb, a, aa, a, bb, a,
+a, bb, a, aa, abba,
+a, bb, a, aaa, b, b, a,
+a, bb, a, aaa, bb, a,
+a, bb, aa, a, a, b, b, a,
+a, bb, aa, a, a, bb, a,
+a, bb, aa, a, abba,
+a, bb, aa, aa, b, b, a,
+a, bb, aa, aa, bb, a,
+a, bb, aaa, a, b, b, a,
+a, bb, aaa, a, bb, a,
+a, bb, aaa, abba,
+a, bb, aaaa, b, b, a,
+a, bb, aaaa, bb, a,
+a, bbaaaabb, a,
+abba, a, a, a, b, b, a,
+abba, a, a, a, bb, a,
+abba, a, a, abba,
+abba, a, aa, b, b, a,
+abba, a, aa, bb, a,
+abba, aa, a, b, b, a,
+abba, aa, a, bb, a,
+abba, aa, abba,
+abba, aaa, b, b, a,
+abba, aaa, bb, a,
+abbaaaabba,
+53
+
+s =
+x,
+1
+
+s =
+a, b, b, a, b, b, a, a,
+a, b, b, a, b, b, aa,
+a, b, b, a, bb, a, a,
+a, b, b, a, bb, aa,
+a, b, b, abba, a,
+a, b, bab, b, a, a,
+a, b, bab, b, aa,
+a, bb, a, b, b, a, a,
+a, bb, a, b, b, aa,
+a, bb, a, bb, a, a,
+a, bb, a, bb, aa,
+a, bb, abba, a,
+a, bbabb, a, a,
+a, bbabb, aa,
+abba, b, b, a, a,
+abba, b, b, aa,
+abba, bb, a, a,
+abba, bb, aa,
+abbabba, a,
+19
+
+s =
+1, 2, 3, 4, 5, 6, 7, 8, 9, 0,
+1
+
+s =
